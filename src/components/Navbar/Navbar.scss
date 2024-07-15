@@ -9,6 +9,32 @@
   padding: 1rem;
   align-items: center;
 
+  @include respond-to(mobile){
+    flex-direction: column;
+    width: 100%;
+
+   &__menu{
+    width: 100%;
+    &__items{
+      width: 100%;
+      flex-direction: column;
+
+      input{
+        width: 100%;
+        padding-left: 0% !important;
+
+        &::placeholder{
+          padding-left: 30px;
+        }
+      }
+
+      button{
+        width: 100%;
+      }
+   }
+    }
+  }
+
   &__menu {
     display: flex;
     justify-content: space-between;
