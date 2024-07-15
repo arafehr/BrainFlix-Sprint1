@@ -3,7 +3,7 @@
 
 .comment__wrapper{
     font-family: 'brainflixfonts', sans-serif;
-    border-top: 2px solid $silver-primary;
+    border-top: 2px solid $brainflix-Mercury-secondary;
     .comment{
         display: flex;
         padding: 1rem;
@@ -14,15 +14,21 @@
             &__publication{
                 .comment__author{
                     color: $brainflix-black-primary;
-                    font-weight: bold;
+                    font-weight: 600;
                 }
                 .comment__date{
                     color: $silver-primary;
                     font-size: 12px;
+                    font-weight: normal;
                 }
                 margin-bottom: 16px;
                 display: flex;
                 justify-content: space-between;
+            }
+
+            .commment__text{
+                font-size: 14px;
+                line-height: 22px;
             }
         }
 

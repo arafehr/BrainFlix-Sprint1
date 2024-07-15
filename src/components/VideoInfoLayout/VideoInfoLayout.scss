@@ -29,7 +29,7 @@
     &__right{
         // flex-grow: 1;
         width: 30%;
-        border-left: 2px solid $silver-primary;
+        border-left: 2px solid $brainflix-Mercury-secondary;
     }
 
     @include respond-to(tablet){

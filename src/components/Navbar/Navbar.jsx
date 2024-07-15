@@ -18,7 +18,7 @@ export const Navbar = () => {
               alt="search"
               className="navbar__menu__search-icon"
             />
-            <input type="text" placeholder="search" />
+            <input type="text" placeholder="Search" />
           </div>
           <div className="navbar__menu__button">
             <img

@@ -1,16 +1,11 @@
 import Comment from '../Comment/Comment'
 import NextVideo from '../NextVideo/NextVideo'
 import VideoDescription from '../VideoDescription/VideoDescription'
-import data from '../../data/video-details.json'
+import PropTypes from 'prop-types'
 import './VideoInfoLayout.scss'
-import { useState } from 'react'
 
-const VideoInfoLayout = () => {
-  const [currentVideo, setCurrentVideo] = useState(data[0])
-  const [nextVideos, setNextVidoes] = useState(() =>
-    data.filter((video) => video.id != currentVideo.id),
-  )
-
+const VideoInfoLayout = ({ currentVideo, nextVideos }) => {
+  console.log(nextVideos, 'asnd')
   return (
     <div className="videoinfo__layout">
       <div className="videoinfo__layout__left">
@@ -27,6 +22,11 @@ const VideoInfoLayout = () => {
       </div>
     </div>
   )
+}
+
+VideoInfoLayout.propTypes = {
+  currentVideo: PropTypes.object.isRequired,
+  nextVideos: PropTypes.array.isRequired,
 }
 
 export default VideoInfoLayout

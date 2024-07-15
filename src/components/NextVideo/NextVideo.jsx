@@ -1,4 +1,4 @@
-import data from '../../data/video-details.json'
+import PropTypes from 'prop-types'
 import './NextVideo.scss'
 
 const NextVideo = ({ video }) => {
@@ -17,6 +17,10 @@ const NextVideo = ({ video }) => {
       </div>
     </>
   )
+}
+
+NextVideo.propTypes = {
+  video: PropTypes.object.isRequired,
 }
 
 export default NextVideo

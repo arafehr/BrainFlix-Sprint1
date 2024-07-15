@@ -50,10 +50,15 @@
         input {
           border: 1px solid $silver-primary;
           border-radius: 4px;
-          height: 30px;
+          height: 35px;
+          border: 1px solid $silver-primary;
+          background-color: $brainflix-Alabaster-secondary;
+          color: $brainflix-darkblack-secondary;
+          font-weight: normal;
           font-size: 12px;
           padding-left: 30px;
           font-weight: bold;
+          outline: none;
         }
 
         .navbar__menu__search-icon {

@@ -19,7 +19,7 @@
         padding-right: 1rem;
         font-family: 'brainflixfonts', sans-serif;
         font-size: 12px;
-        border-bottom: 2px solid $silver-primary;
+        border-bottom: 2px solid $brainflix-Mercury-secondary;
         padding: 16px 0;
         gap: 10px;
 
@@ -111,7 +111,9 @@
             .input__label{
                 color: $silver-primary;
                 font-family: 'brainflixfonts', sans-serif;
-                font-size: 14px;
+                font-size: 12px;
+                margin-bottom: 8px;
+                text-transform: uppercase;
             }
 
             input {
@@ -121,8 +123,9 @@
                 height: 35px;
                 padding: 0 0.5rem;
                 font-size: 12px;
+                outline: none;
                 font-weight: bold;
-                background-color: $brainflix-Mercury-secondary;
+                background-color: $brainflix-Alabaster-secondary;
                 font-family: 'brainflixfonts';
                 font-weight: normal;
                 color: $brainflix-darkblack-secondary;
