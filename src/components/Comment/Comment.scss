@@ -1,0 +1,35 @@
+@import '../../styles/vars';
+
+.comment__wrapper{
+    font-family: 'brainflixfonts', sans-serif;
+    border-top: 2px solid $silver-primary;
+    .comment{
+        display: flex;
+        padding: 1rem;
+        gap: 32px;
+        &__details{
+            font-size: 14px;
+            font-weight: normal;
+            &__publication{
+                .comment__author{
+                    color: $brainflix-black-primary;
+                    font-weight: bold;
+                }
+                .comment__date{
+                    color: $silver-primary;
+                    font-size: 12px;
+                }
+                margin-bottom: 16px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        &__avatar{
+            height: 40px;
+            width: 50px;
+            background-color: $brainflix-Mercury-secondary;
+            border-radius: 50%;
+        }
+    }
+}

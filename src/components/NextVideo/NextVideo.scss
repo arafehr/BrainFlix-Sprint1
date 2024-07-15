@@ -1,0 +1,35 @@
+.next__video{
+    width: 100%;
+    padding: 8px 16px;
+    font-family: 'brainflixfonts', sans-serif;
+    &__card{
+        display: flex;
+        gap: 10px;
+
+        .card__media{
+            width: 150px;
+
+            img{
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+        }
+
+        .video__title{
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .video__author{
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .video__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
