@@ -1,0 +1,11 @@
+@import '../../styles/vars';
+
+
+.video__player{
+    background-color:$brainflix-darkblack-secondary;
+    display: flex;
+    justify-content: center;
+    video{
+        width: 70%;
+    }
+}

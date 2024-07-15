@@ -1,11 +1,12 @@
-$brainflix-black-primary: #323232;
-$brainflix-blue-primary: #0095FF;
-$silver-primary: #AFAFAF;
-$white-primary: #FFFFFF;
+@import "../../styles/vars";
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  align-items: center;
 
   &__menu {
     display: flex;
