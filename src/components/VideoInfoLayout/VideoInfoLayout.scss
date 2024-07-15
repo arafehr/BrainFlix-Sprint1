@@ -6,13 +6,13 @@
     margin: 0 auto;
     display: flex;
 
-    // .next__video__header{
-    //     color: $silver-primary;
-    //     padding: 8px 16px;
-    //     font-weight: normal;
-    //     font-family: 'brainflix', sans-serif;
-    //     font-size: 14px;
-    // }
+    .next__video__header{
+        color: $silver-primary;
+        padding: 8px 16px;
+        font-weight: normal;
+        font-family: 'brainflix', sans-serif;
+        font-size: 14px;
+    }
 
     &__left{
         height: 500px;
