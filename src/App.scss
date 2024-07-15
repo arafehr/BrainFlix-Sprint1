@@ -2,3 +2,27 @@
   margin: 0;
   padding: 0%;
 }
+
+
+@font-face {
+  font-family: 'brainflixfonts';
+  src: url('./assets/Font/AvenirNextLTPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brainflixfonts';
+  src: url('./assets/Font/AvenirNextLTPro-Demi.otf') format('opentype');
+  font-weight: 600; // or whatever weight you want
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brainflixfonts';
+  src: url('./assets/Font/AvenirNextLTPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
