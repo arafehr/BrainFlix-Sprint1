@@ -15,4 +15,10 @@
             width: 90%;
         }
     }
+
+    @include respond-to(mobile){
+        video{
+            width: 100%;
+        }
+    }
 }

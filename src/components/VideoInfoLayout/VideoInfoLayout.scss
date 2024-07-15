@@ -6,6 +6,13 @@
     margin: 0 auto;
     display: flex;
 
+
+    @include respond-to(mobile){
+        margin: 0;
+        // width: 100%;
+        padding: 1rem;
+    }
+
     .next__video__header{
         color: $silver-primary;
         padding: 8px 16px;
@@ -34,6 +41,12 @@
         &__right{
             width: 50%;
             border-left: none;
+        }
+    }
+
+    @include respond-to(mobile){
+        &__right{
+            width: 100%;
         }
     }
 }

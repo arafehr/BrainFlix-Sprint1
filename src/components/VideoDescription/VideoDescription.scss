@@ -21,6 +21,7 @@
         font-size: 12px;
         border-bottom: 2px solid $silver-primary;
         padding: 16px 0;
+        gap: 10px;
 
         .video__author {
             display: flex;
@@ -36,6 +37,7 @@
         .video__stats {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 24px;
             margin-right: 16px;
 
@@ -49,6 +51,20 @@
                 display: flex;
                 gap: 10px;
                 color: $silver-primary;
+            }
+
+            @include respond-to(mobile){
+                &__views{
+                    img{
+                        width: 20px;
+                    }
+                }
+
+                &__likes{
+                    img{
+                        width: 20px;
+                    }
+                }
             }
         }
     }
@@ -95,6 +111,7 @@
             .input__label{
                 color: $silver-primary;
                 font-family: 'brainflixfonts', sans-serif;
+                font-size: 14px;
             }
 
             input {
@@ -120,5 +137,6 @@
                 border-radius: 50%;
             }
         }
+
     }
 }
